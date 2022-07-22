@@ -1,0 +1,58 @@
+* {
+   margin:0%;
+}
+
+body,html {
+   height: 100%;
+}
+.parallax {
+   background-size:cover;
+   height:100%;
+}
+
+.parallax-1 {
+   background: url("person.jpg") no-repeat fixed center;
+}
+
+.parallax-2 {
+    background: url("city.jpg") no-repeat fixed center;
+}
+
+.parallax-1 h1 {
+    position: relative;
+    left: 500x;
+    top: 200px;
+    width: 400px;
+    height: 60px;
+    padding: 5px;
+    margin: auto;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.26);
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.parallax-2 h1 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.527);
+    color:white;
+    text-align: center;
+}
+
+.paragraph {
+   font-size:15px;
+   height: 40px;
+   background-color:black;
+   color:white;
+   padding: 20px;
+   text-align: center;
+}
+
+

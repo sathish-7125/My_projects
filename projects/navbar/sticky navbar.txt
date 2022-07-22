@@ -1,0 +1,30 @@
+navbar - A standard navigation bar (like links,toggler,form-buttons and input fields etc)..
+navbar-expand-sm - to highlight the contents in small screens. (for a responsive collapsing class)
+<ul> with class="navbar-nav" - To add links inside the navbar.
+
+A standard navigation bar is created with the (.navbar) class, followed by a responsive collapsing class: (.navbar-expand-xxl|xl|lg|md|sm)
+(stacks the navbar vertically on xxlarge, extra large, large, medium or small screens).
+
+To add links inside the navbar, use either an <ul> element (or a <div>) with (class="navbar-nav"). 
+Then add <li> elements with a .nav-item class followed by an <a> element with a .nav-link class:
+
+nav (navbar) / div(container-fluid) / ul(navbar-nav) / li (nav-items) / a (nav-link)
+
+*************************************************************************
+
+especially on small screens, you want to hide the navigation links and replace them with a button that should reveal them when clicked on.
+To create a collapsible navigation bar, use a button with class="navbar-toggler", data-bs-toggle="collapse" and data-bs-target="#thetarget".
+Then wrap the navbar content (links, etc) inside a <div> element with class="collapse navbar-collapse",followed by an id that matches the
+data-bs-target of the button: "thetarget".
+
+class="navbar-toggler" / data-bs-toggle="collapse" / data-bs-target="#thetarget" - To create a collapsible navigation bar, with a button.
+class="collapse navbar-collapse" / data-bs-target - To wrap the navbar content like links & etc inside a div element followed by an id that matches the target id.
+
+
+.navbar - brand for your company, product, or project name.
+.navbar-nav / for a full-height and lightweight navigation (including support for dropdowns).
+.navbar-toggler / for use with our collapse plugin and other navigation toggling behaviors.
+.form-inline /  for any form controls and actions.
+.navbar-text / for adding vertically centered strings of text.
+.collapse.navbar-collapse / for grouping and hiding navbar contents by a parent breakpoint.
+

@@ -1,0 +1,61 @@
+body {
+    color: #141a34;
+    background: #141a34;
+    padding: 1.3rem;
+    font-family:sans-serif;
+    max-width: 45rem;
+    margin: 100px auto;
+    font-size: 1.3rem;
+   }
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+   }
+   .accordion{
+    margin-bottom: 1rem;
+   }
+   
+   .accord-label {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+   }
+
+   .accord-label::after {
+    content:">";
+    padding: 0.51rem;
+    transform: scale(1.8);
+    transition: all 0.35s;
+   }
+   
+   .accord-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #141a34;
+    background: white;
+    transition: all 0.35s;
+    display: none;
+   }
+
+   input:checked + .accord-label {
+    background: lightblue;
+   }
+
+   input:checked + .accord-label::after {
+    transform: rotate(90deg) scale(1.8);
+   }
+
+    input:checked ~ .accord-content {
+    max-height: 100vh;
+    padding: 1.4em;
+    display: block;
+    transition: all 0.35s;
+   }

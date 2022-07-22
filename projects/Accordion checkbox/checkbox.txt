@@ -1,0 +1,21 @@
+1.setting the width, bg and color of body tag.
+2.hiding the input button using opacity-0,z-index:-1 etc.
+3.setting the both accordian margin-bottom to 2rem;
+4.setting the label size,display-flex,padding,justify-content etc....
+5.adding content after the label using (::after) like content,padding,transform and transition.
+5.setting and hiding the content using max-height,transition,display:none etc.
+6.if input checked means display label background color.
+7.if input checked means display content after the lable and rotate and scale it.
+8.if input checked means shows the content.
+
+
+
+Notes: 1.display: displays an element as block level flex container.
+2. rem - Relative to font-size of the root element.
+3.user-select - if you double-click on some text it will be selected/highlighted.
+This property can be used to prevent this.
+4.::after pseudo-element can be used to insert some content after the content of an element.
+5.The scale() method increases or decreases the size of an element.
+6.1em is equal to the current font-size of the element.
+7. ~ means child of the input elements like paragraph or content.
+8.+ means first child of the parent element like after the div > p
