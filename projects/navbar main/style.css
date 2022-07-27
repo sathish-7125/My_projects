@@ -1,0 +1,23 @@
+body {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.home-section,
+.products-section,
+.about-section {
+    height: 76vh;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-section,
+    .products-section,
+    .about-section {
+          overflow: hidden;
+          display: block;
+          height: auto;
+        }
+      }
+      

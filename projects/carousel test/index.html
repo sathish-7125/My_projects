@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boot/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark color-white fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Carousel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators-->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow image and content -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/bg-2.jpg" alt="Lonely" class="d-block w-100">
+        <div class="carousel-caption">
+<h5>Welcome to my website</h5>
+<p>We hope, you will love our designs and styles in this website.</p>
+<p><a class="btn btn-lg btn-primary" href="#">Explore</a></p>
+</div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/bg-4.jpg" alt="Nature" class="d-block w-100">
+        <div class="carousel-caption">
+            <h5>Love the beauty of nature</h5>
+            <p>all the plants, animals, etc. in the universe and all the things that happen in it that are not made or caused by people.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/bg-1.jpg" alt="Himalaya" class="d-block w-100">
+        <div class="carousel-caption">
+            <h5>Himalaya the mount everest</h5>
+            <p>The range has some of the planet's highest peaks, including the very highest, Mount Everest.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Check it out</a></p>
+            </div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div><br>
+
+  <!--Marketing messaging and featurettes-->
+  <div class="container-marketing overflow-hidden">
+    <div class="row">
+        <div class="col-lg-4 text-center">
+            <img src="image/radius-1.jpg" alt="" class="rounded-circle">
+            <h2 class="fw-normal">Long trip</h2>
+            <p>A road trip, sometimes spelled roadtrip, is a long-distance journey on the road. Typically, road trips are long distances travelled by automobile</p>
+            <p><a class="btn btn-secondary" href="#">read more</a></p>
+        </div>
+        <div class="col-lg-4 text-center">
+        <img src="image/radius-2.jpg" alt="" class="rounded-circle">
+        <h2 class="fw-normal">New york city</h2>
+        <p>A road trip, sometimes spelled roadtrip, is a long-distance journey on the road. Typically, road trips are long distances travelled by automobile</p>
+        <p><a class="btn btn-secondary" href="#">Read more</a></p>
+    </div>
+        <div class="col-lg-4 text-center">
+            <img src="image/radius-3.jpg" alt="" class="rounded-circle">
+            <h2 class="fw-normal">Feel the nature</h2>
+            <p>A road trip, sometimes spelled roadtrip, is a long-distance journey on the road. Typically, road trips are long distances travelled by automobile</p>
+            <p><a class="btn btn-secondary" href="#">read more</a></p>
+        </div>
+    </div>
+  </div>
+
+   <hr class="featurette-divider">
+  <div class="row featurette custom h-100 w-100 align-items-center">
+    <div class="col-md-7  h-50 w-50 my-5 py-5 text-center">
+        <h2 class="featurette-heading fw-normal lh-1">Chrome Browser <span class="text-muted"> fastest web browser in the world.</span></h2>
+<p class="lead">Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox.</p>
+    </div>
+    <div class="col-md-5 h-50 w-50">
+    <img src="image/chrome.png" alt="" class="img-fluid px-5 mx-5"> 
+  </div>
+  </div>
+
+  <hr class="featurette-divider">
+  <div class="row featurette custom h-100 w-100 align-items-center">
+    <div class="col-md-7 order-md-1 h-50 w-50 my-5 py-5 text-center" >
+        <h2 class="featurette-heading fw-normal lh-1">Firefox Browser <span class="text-muted"> one of the famous browser.</span></h2>
+<p class="lead">Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.</p>
+    </div>
+    <div class="col-md-5 order-md-0 h-50 w-50">
+    <img src="image/firefox.png" alt="" class="img-fluid px-5 mx-5">
+  </div>
+  </div>
+
+  <hr class="featurette-divider">
+  <div class="row featurette custom h-100 w-100 align-items-center">
+    <div class="col-md-7 h-50 w-50 my-5 py-5 text-center">
+        <h2 class="featurette-heading fw-normal lh-1">Safari Browser <span class="text-muted"> one of the famous apple browser.</span></h2>
+<p class="lead">Safari is a graphical web browser developed by Apple. It is primarily based on open-source software, and mainly WebKit.</p>
+    </div>
+    <div class="col-md-5 h-50 w-50">
+    <img src="image/safari.png" alt="" class="img-fluid px-5 mx-5">
+  </div>
+  </div>
+  <hr class="featurette-divider">
+
+   <footer class="container p-2 m-2">
+    <p class="float-end"><a href="#">Back to Top</a></p>
+    <p>© 2021-2022 Company, Inc.&nbsp<a href="#">privacy</a> &nbsp;<a href="#">terms</a></p>
+  </footer>
+</main>
+
+<script src="boot/bootstrap.min.js"></script>   
+</body>
+</html>

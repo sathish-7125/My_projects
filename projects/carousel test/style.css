@@ -1,0 +1,48 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.carousel-inner img {
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width:100%;
+}
+
+.container-marketing img {
+    height: 250px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 800px) {
+
+.carousel-inner img {
+    height: 50%;
+    width:auto;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: initial;
+}
+
+.custom {
+    height: 100%;
+    width: 100%;
+    display:block;
+    margin-left: 5px;
+}
+.custom div {
+    height: 50%;
+    width: 50%;
+    display:inline;
+    justify-content: center;
+}
+.custom div img {
+   position: relative;
+   right: 65px;
+}
+ }
